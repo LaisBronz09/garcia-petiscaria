@@ -1,5 +1,4 @@
-/* Resetando alguns estilos padrão */
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -73,9 +72,22 @@ header p {
 }
 
 .category ul li {
+    display: flex;
+    align-items: center;
     font-size: 1.2em;
     margin: 8px 0;
-    text-align: center;
+    text-align: left;
+}
+
+.category ul li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.category ul li span {
+    flex-grow: 1;
 }
 
 footer {
